@@ -208,3 +208,11 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Remove static files
+
+/src/main/resources/static/*
+
+#remove Importatnt files
+
+/src/main/resources/application.yaml

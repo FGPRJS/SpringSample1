@@ -1,4 +1,5 @@
 import React from "react";
+import { BoardPosts } from "./BoardPost/BoardPosts";
 
 export function App() : React.ReactElement{
 
@@ -11,6 +12,7 @@ export function App() : React.ReactElement{
         <div>
           This is App ReactElement.
         </div>
+        <BoardPosts/>
     </div>
   )
 }
